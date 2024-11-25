@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-family: "Schoolbell", sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+body {
+    background-color: #b8dbd3;
+}
+
+/* BASE STYLES */
+
+/** header **/
+
+#header-nav {
+    background-color: #f7e7b4;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    height: 80px;
+    padding: 0 20px;
+}
+
+.navbar-brand h1 {
+    font-size: 3em;
+}
+
+.navbar-toggle {
+    border: 0px solid transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: gray;
+}
+
+.navbar-toggle .icon-bar{
+    width: 50px !important;
+    height: 7px !important;
+    margin: 5px;
+  }
+
+#collapsable-nav {
+    border: none;
+}
+
+#collapsable-nav ul {
+    padding: 0;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#collapsable-nav ul li {
+    margin-top: -1px;
+    padding: 5px;
+}
+
+#collapsable-nav ul li a {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: dimgray;
+}
+
+#collapsable-nav ul li a:hover {
+    color: black;
+}
+
+/** body **/
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 1.8em;
+}
+
+.row section {
+    padding: 0 10px 20px 10px;
+}
+
+.menu-item {
+    position: relative;
+    background-color:  	#f2f6c3;
+    height: 350px;
+}
+
+.menu-item h2 {
+    margin: 0;
+    padding: 10px 10px 0 10px;
+}
+
+.menu-item p {
+    margin: 0;
+    padding: 20px;
+    ;
+}
+
+.menu-item img {
+    padding: 20px;
+}
+
+.menu-item:hover {
+    background-color: white;
+}
+
+.anuncio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.anuncio h1 {
+    font-size: 6em;
+    font-family: monospace;
+}
+
+/* RESPONSIVE DESIGN */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .row section {
+	padding: 0 20px 20px 20px;
+    }
+}
