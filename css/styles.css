@@ -93,38 +93,43 @@ h2 {
     padding: 0 10px 20px 10px;
 }
 
-.menu-item {
+.item {
     position: relative;
     background-color:  	#f2f6c3;
-    height: 350px;
 }
 
-.menu-item h2 {
+.paginas {
+    height: 350px;
+}
+.item h1 {
     margin: 0;
     padding: 10px 10px 0 10px;
 }
 
-.menu-item p {
+.item p {
     margin: 0;
     padding: 20px;
     ;
 }
 
-.menu-item img {
+.item img {
     padding: 20px;
 }
 
-.menu-item:hover {
+.paginas:hover {
     background-color: white;
 }
 
 .anuncio {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.anuncio h1 {
-    font-size: 6em;
+.anuncio .grande{
     font-family: monospace;
+}
+
+.grande {
+    font-size: 6em;
 }
 
 /* RESPONSIVE DESIGN */
